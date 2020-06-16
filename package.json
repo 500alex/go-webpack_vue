@@ -1,0 +1,40 @@
+{
+  "name": "melisa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/500alex/melisa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/500alex/melisa/issues"
+  },
+  "homepage": "https://github.com/500alex/melisa#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.5",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.17",
+    "vuex": "^3.0.1"
+  }
+}
