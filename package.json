@@ -7,16 +7,6 @@
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/500alex/melisa.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/500alex/melisa/issues"
-  },
-  "homepage": "https://github.com/500alex/melisa#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",
@@ -31,6 +21,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.1.5",
+    "jquery": "^3.5.1",
     "vue": "^2.5.17",
     "vue-loader": "^15.4.2",
     "vue-router": "^3.0.1",

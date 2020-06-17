@@ -5,7 +5,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const compiler = require('vue-template-compiler')
 
 module.exports = {
-    entry: { main: './assets/js/main.js' },
+    entry: { main: './assets/bundle.js' },
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'build.js'
@@ -41,7 +41,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin("./build/build.css"),
+        new ExtractTextPlugin("build.css"),
         new VueLoaderPlugin(),
     ]
 };
