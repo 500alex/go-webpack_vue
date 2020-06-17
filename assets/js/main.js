@@ -1,18 +1,24 @@
 import Vue from 'vue';
 import $ from "jquery"
-// import app from './app.vue';
+import app from '../app.vue';
 
-import component from '../components';
-component(Vue);
+// import component from '../components';
+// component(Vue);
 
 $(document).ready(function () {
     // window.bus = new Vue();
 
-    var app = new Vue({
-        el: '#app',
-        delimiters: ['${', '}'],
-        data: {
-          message: 'Hello Vue!'
-        }
-      })
+    // var app = new Vue({
+    //     el: '#app',
+    //     delimiters: ['${', '}'],
+    //     data: {
+    //       message: 'Hello Vue!'
+    //     }
+    //   })
+
+
+      new Vue({
+        render: h => h(app),
+        // delimiters: ['${', '}'],
+    }).$mount('#app');
 })
